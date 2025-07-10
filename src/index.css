@@ -99,3 +99,18 @@
     @apply bg-background text-foreground;
   }
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap");
+
+@layer utilities {
+  .luxury-gradient {
+    background: linear-gradient(135deg, #d4af37 0%, #f5e55f 100%);
+  }
+
+  .luxury-text-gradient {
+    background: linear-gradient(135deg, #d4af37 0%, #f5e55f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
